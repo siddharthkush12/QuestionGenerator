@@ -73,7 +73,13 @@ fun DashboardScreen(
         Spacer(Modifier.height(16.dp))
 
         if (isLoading) {
-            CircularProgressIndicator()
+            CircularProgressIndicator(
+                modifier = Modifier.size(30.dp),
+                color = Orange
+            )
+            Text(
+                text = "Please wait it takes a while!"
+            )
         }
 
         error?.let {

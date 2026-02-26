@@ -58,7 +58,7 @@ object NetworkModule {
         client: OkHttpClient
     ): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("http://10.0.2.2:8000/")
+            .baseUrl("https://questiongeneratorbackend.onrender.com/")
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
@@ -71,7 +71,5 @@ object NetworkModule {
     ): ApiService {
         return retrofit.create(ApiService::class.java)
     }
-
-
 
 }

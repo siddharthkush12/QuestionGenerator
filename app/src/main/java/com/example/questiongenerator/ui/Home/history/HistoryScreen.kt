@@ -48,7 +48,12 @@ fun HistoryScreen(
         when {
             isLoading -> {
                 CircularProgressIndicator(
-                    modifier = Modifier.align(Alignment.Center)
+                    modifier = Modifier.size(35.dp).align(Alignment.Center),
+                    color = Orange
+                )
+                Text(
+                    text = "Please wait it takes a while!",
+                    modifier = Modifier.align(Alignment.Center).padding(top = 70.dp)
                 )
             }
 
