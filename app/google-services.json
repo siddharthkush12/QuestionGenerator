@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "490432217357",
+    "project_id": "questiongenerator-87695",
+    "storage_bucket": "questiongenerator-87695.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490432217357:android:26e78d9c7616dca5463044",
+        "android_client_info": {
+          "package_name": "com.example.questiongenerator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCduLZqxJSaFIgXbb2k8NrjRj3LjMBQtmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
