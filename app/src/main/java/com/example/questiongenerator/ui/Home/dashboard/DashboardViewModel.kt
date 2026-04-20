@@ -46,11 +46,11 @@ class DashboardViewModel @Inject constructor(
 
                 if (response.success) {
 
-                    // ✅ Update UI State
+
                     courseTitle.value = response.title
                     units.value = response.units
 
-                    // ✅ Save to Firestore
+
                     firebaseAuth.currentUser?.uid?.let { uid ->
 
                         firestoreRepo.saveMcq(
